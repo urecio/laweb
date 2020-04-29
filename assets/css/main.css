@@ -19,6 +19,10 @@
 
 	body {
 		line-height: 1;
+		background-repeat: no-repeat;
+    background-image: url('/images/Anade-banner-web.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
 	}
 
 	ol, ul {
@@ -1484,13 +1488,13 @@
 		}
 
 	h1 {
-		font-size: 1.75em;
+		font-size: 1.3em;
 	}
 
 		@media screen and (max-width: 980px) {
 
 			h1 {
-				font-size: 1.5em;
+				font-size: 1.3em;
 			}
 
 		}
@@ -2540,21 +2544,11 @@
 
 /* Wrapper */
 
-.narrow-size {
-		max-width: 98em;
-		width: 100%;
-		margin: 0 auto;
-		padding: 0 2em;
-}
-
-	.narrower-size {
+	#wrapper {
 		max-width: 68em;
 		width: 100%;
 		margin: 0 auto;
 		padding: 0 2em;
-	}
-
-	#wrapper {
 		opacity: 1;
 		filter: none;
 		-moz-transition: opacity 1s ease, -moz-filter 1s ease;
@@ -2587,7 +2581,7 @@
 
 	#header {
 		text-align: center;
-		padding: 6em 0 4em 0;
+		padding: 35% 0 4em 0;
 	}
 
 		#header h1 {
@@ -2622,13 +2616,9 @@
 /* cover */
 .cover {
 	height: 100vh;
-	
 	text-align: center;
 	background-size: 100%;
 	position: relative;
-	background-position: -30px 50%;
-	background-repeat: no-repeat;
-	background-image: url('/images/cover-2.png')
 }
 /* Socials */
 #socials {
@@ -2639,17 +2629,12 @@
 }
 
 .vision {
-		text-align: center;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: 85%;
-    background-size: 30%;
-	background-image: url('/images/second-section-right.png');
+	text-align: center;
+	height: 100vh;
 }
 .vision .text {
 	margin: auto;
-	padding-top: 20vh;
-	padding-left: 100px;	
+	padding-top: 55vh;
 	max-width: 400px;
 	text-align: left;
 }
@@ -2657,10 +2642,6 @@
 .about {
 		text-align: center;
     height: 100vh;
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: 50%;
-	background-image: url('/images/Anade-banner-web.png');
 }
 .about .text {
 	margin: auto;
