@@ -2711,11 +2711,15 @@
 		.about .text {
 			margin-left: 50%;
 		}
+		.thumbnails > div {
+			padding-left: 0px;	
+		}
 	}
 
 	@media screen and (max-width: 768px) {
 		#socials {
-			width: 92%;
+			width: 100%;
+			left: 0;
 		}
 		.cover {
 			background-size: 100%;
@@ -2742,6 +2746,15 @@
 	}
 
 	@media screen and (max-width: 667px) {
+		.header-logo {
+			height:88px;
+		}
+		#socials {
+			padding: 0 15px;
+		}
+		.cover {
+			background-position: -5px 50%;
+		}
 		.vision {
 			background-position: 160px;
 		}
@@ -2754,8 +2767,8 @@
 			background-position: -179px;
 		}
 		.about .text {
-			margin-left: 150px;
-			padding-top: 21px;
-			max-width: 250px;
+			margin-left: 170px;
+			padding-top: 7vh;
+			max-width: 220px;
 		}
 	}
